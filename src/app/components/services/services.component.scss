@@ -1,0 +1,19 @@
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  a {
+    font-size: 1.6rem;
+    padding: 0.4rem;
+    width: 100%;
+    text-align: right;
+    color: white;
+    background-color: #041047;
+    text-decoration: none;
+    &:hover {
+      cursor: pointer;
+      background-color: #0794c4;
+    }
+  }
+}
